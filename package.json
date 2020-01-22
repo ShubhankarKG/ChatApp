@@ -1,0 +1,27 @@
+{
+  "name": "chat_app",
+  "version": "1.0.0",
+  "description": "A Basic Chat Application to display use of WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhankarKG/ChatApp.git"
+  },
+  "keywords": ["chat-app", "socket.io", "websockets"],
+  "author": "ShubhankarKG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhankarKG/ChatApp/issues"
+  },
+  "homepage": "https://github.com/ShubhankarKG/ChatApp#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
